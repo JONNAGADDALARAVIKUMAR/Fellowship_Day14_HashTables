@@ -1,6 +1,6 @@
 package mainHashMap;
 
-public class MyLinkedList<K, V> {
+public class MyLinkedList <K> {
 
 	public INode head;
 	public INode tail;

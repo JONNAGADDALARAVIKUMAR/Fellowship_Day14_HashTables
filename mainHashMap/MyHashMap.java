@@ -1,7 +1,7 @@
 package mainHashMap;
 
 @SuppressWarnings({"unchecked","rawtypes"})
-public class MyHashMap <K, V> {
+public class MyHashMap<K, V> {
 	
 	MyLinkedList myLinkedList;
 	

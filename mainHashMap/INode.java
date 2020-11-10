@@ -1,6 +1,6 @@
 package mainHashMap;
 
-public interface INode <K> {
+public interface INode<K> {
 	
 	K getKey();
 	void setKey(K key);
