@@ -6,6 +6,7 @@ public class MyBinaryNode<K> {
 	MyBinaryNode<K> right;
 	
 	public MyBinaryNode(K key) {
+		
 		this.key = key;
 		this.left = null;
 		this.right = null;

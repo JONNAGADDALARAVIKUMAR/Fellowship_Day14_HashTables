@@ -3,6 +3,7 @@ package mainBinarySearch;
 public class MyBinaryTree<K extends Comparable<K>> {
 
 	private MyBinaryNode<K> root;
+	private MyBinaryNode<K> sizeOfRoot;
 
 	public void add(K key) {//Adds data to BST
 		this.root = this.addRecursively(root, key);
