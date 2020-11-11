@@ -1,6 +1,6 @@
 package mainBinarySearch;
 
-public class MyBinaryNode<K> {
+public class MyBinaryNode <K> {
 	K key;
 	MyBinaryNode<K> left;
 	MyBinaryNode<K> right;
