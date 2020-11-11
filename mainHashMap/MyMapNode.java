@@ -12,7 +12,6 @@ public class MyMapNode<K, V> implements INode<K> {
 		this.next = null;
 	}
 	
-	@Override
 	public K getKey() {
 
 		return key;
@@ -28,13 +27,12 @@ public class MyMapNode<K, V> implements INode<K> {
 		this.value = value;
 	}
 
-	@Override
 	public void setKey(K key) {
 		this.key = key;
 	}
 
 	@Override
-	public INode getNext() {
+	public INode<K> getNext() {
 		
 		return next;
 	}
@@ -48,11 +46,11 @@ public class MyMapNode<K, V> implements INode<K> {
 	@Override
 	public String toString() {
 		StringBuilder myMapNodeString = new StringBuilder();
-		myMapNodeString.append(" MyMapNode { "+ "K = ").append(key)
-		.append(" V = ").append(value);
+		myMapNodeString.append(" MyMapNode { K = ").append(key)
+		.append(" V = ").append(value).append(" }");
 		
 		if(next != null) {
-			myMapNodeString.append(" } ->").append(next);
+			myMapNodeString.append(" ->").append(next);
 		}
 		return myMapNodeString.toString();
 	}

@@ -2,6 +2,7 @@ package mainHashMap;
 
 public interface INode<K> {
 	
+	INode key = null;
 	K getKey();
 	void setKey(K key);
 	
